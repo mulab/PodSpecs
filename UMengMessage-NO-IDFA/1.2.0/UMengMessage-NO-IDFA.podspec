@@ -126,7 +126,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/UMengMessage/UMessage_Sdk_All_1.2.0/UMessage_Sdk_1.2.0/**" }
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/UMengMessage-NO-IDFA/UMessage_Sdk_All_1.2.0/UMessage_Sdk_1.2.0/**" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
